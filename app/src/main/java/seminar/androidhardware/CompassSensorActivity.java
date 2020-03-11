@@ -32,6 +32,7 @@ public class CompassSensorActivity extends Activity implements SensorEventListen
     @Override
     protected void onResume() {
         super.onResume();
+
         Sensor sensor = manager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
         manager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_GAME);
     }

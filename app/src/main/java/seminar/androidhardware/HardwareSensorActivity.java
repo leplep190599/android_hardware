@@ -28,4 +28,9 @@ public class HardwareSensorActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CompassSensorActivity.class);
         startActivity(intent);
     }
+
+    public void clickToLight(View view) {
+        Intent intent = new Intent(this, LightSensorActivity.class);
+        startActivity(intent);
+    }
 }

@@ -5,28 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CompassSensorActivity">
-
+    tools:context=".LightSensorActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Compass Sensor"
+        android:text="Light Sensor"
         android:textStyle="bold"
         android:textSize="20dp"
         android:gravity="center"
         />
     <TextView
-        android:id="@+id/txtDegree"
+        android:id="@+id/txtLight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Degree"
+        android:text="Light"
         android:gravity="center"
         />
-    <ImageView
-        android:id="@+id/imgCompass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@drawable/ic_compass"
-        />
+
 </LinearLayout>
